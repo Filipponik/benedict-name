@@ -10,7 +10,7 @@ def main():
                       'Slumblerbelch', 'Cupboardlatch', 'Combyourthatch', 'Thundermunch', 'Cricketbat',
                       'Johnnycash', 'Comelycat', 'Custardbath', 'Thundercats', 'Numbercrunch',
                       'Luckycatch', 'Covertrack', 'Uptoscratch', 'Compasstrap', 'Chunkybap', 'Candygram']
-    life_name = input('Введите свои имя и фамилию ').strip().title()
+    life_name = input('Input your name in life ').strip().title()
     true_name = False
     if life_name.find(' ') == life_name.rfind(' ') != -1:
         names_list = life_name.split(' ')
