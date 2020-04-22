@@ -10,10 +10,10 @@ def main():
                       'Slumblerbelch', 'Cupboardlatch', 'Combyourthatch', 'Thundermunch', 'Cricketbat',
                       'Johnnycash', 'Comelycat', 'Custardbath', 'Thundercats', 'Numbercrunch',
                       'Luckycatch', 'Covertrack', 'Uptoscratch', 'Compasstrap', 'Chunkybap', 'Candygram']
-    name = input('Введите свои имя и фамилию ').strip().title()
+    life_name = input('Введите свои имя и фамилию ').strip().title()
     true_name = False
-    if name.find(' ') == name.rfind(' ') != -1:
-        names_list = name.split(' ')
+    if life_name.find(' ') == life_name.rfind(' ') != -1:
+        names_list = life_name.split(' ')
         first_name_digit = names_list[0][0]
         last_name_digit = names_list[1][0]
         true_name = first_name_list[alphabet.index(first_name_digit)] + ' ' + last_name_list[
